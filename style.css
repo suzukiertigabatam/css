@@ -627,7 +627,6 @@ footer .features {
 		display: none
 	}
 	.section-spec .col-sm-6 {
-		z-index: 9999;
 		background: url(../images/overlay-product-bg.png) repeat right top;
 		color: #fff
 	}
