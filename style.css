@@ -202,7 +202,7 @@ body {
 .navbar .navbar-brand {
 	padding-top: 0;
 	padding-bottom: 0;
-	z-index: 1032;
+	z-index: 9999;
 	position: relative
 }
 .navbar-dropdown {
@@ -632,8 +632,7 @@ footer .features {
 		display: none
 	}
 	.section-spec .col-sm-6 {
-		z-index: 9999;
-		background: url(../images/overlay-product-bg.png) repeat right top;
+		background: #222;
 		color: #fff
 	}
 	.section-spec h3 {
