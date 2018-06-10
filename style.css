@@ -9,7 +9,7 @@ body {
 .slideanim {
 	visibility: hidden
 }
-.slide {
+.slider {
 	animation-name: slide;
 	-webkit-animation-name: slide;
 	animation-duration: 1s;
