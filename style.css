@@ -197,7 +197,7 @@ body {
 .navbar .navbar-brand {
 	padding-top: 0;
 	padding-bottom: 0;
-	z-index: 1032;
+	z-index: 9999;
 	position: relative
 }
 .navbar-dropdown {
