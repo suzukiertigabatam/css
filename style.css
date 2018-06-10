@@ -2,10 +2,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px
 }
-		.carousel-inner img {
-			width: 100%;
-			height: 100%
-		}
+.carousel-inner img {
+	width: 100%;
+	height: 100%
+}
 .slideanim {
 	visibility: hidden
 }
@@ -109,7 +109,8 @@ body {
 .navbar {
 	background: #173e81 !important;
 	justify-content: flex-start;
-	padding: 0
+	padding: 0;
+	z-index: 9999
 }
 #navbar {
 	position: fixed;
@@ -202,7 +203,7 @@ body {
 .navbar .navbar-brand {
 	padding-top: 0;
 	padding-bottom: 0;
-	z-index: 9999;
+	z-index: 1032;
 	position: relative
 }
 .navbar-dropdown {
