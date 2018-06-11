@@ -675,6 +675,40 @@ footer .features {
 .web {
 	display:
 }
+.status-msg-wrap {
+	display: none
+}
+.status-msg-body {
+	display: none
+}
+.status-msg-border {
+	display: none
+}
+.post-labels {
+	display: none
+}
+.post-share-buttons {
+	display: none
+}
+.feed-links {
+	display: none
+}
+.home-link {
+	display: none
+}
+.blog-pager-newer-link {
+	display: none
+}
+.blog-pager-older-link {
+	display: none
+}
+.post-timestamp {
+	display: none
+}
+.sumber {
+	padding: 3px;
+	font-size: 12px
+}
 @media only screen and (max-width: 600px) {
 	.filter__item .icon {
 		display: inline-block
