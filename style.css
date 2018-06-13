@@ -382,32 +382,38 @@ ul.navbar-nav li {}ul.navbar-nav li a {
 .section-spec .accordion .accordion-heading.collapsed::after {
 	transform: rotate(90deg)
 }
-.section-features {
-	border-bottom: 1px solid #ddd;
 }
 .section-features .feature-nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .section-features .feature-nav .nav {
-	border-bottom: none
+    border-bottom: none;
 }
 .section-features .feature-nav a {
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	border: none;
-	color: #003168;
-	padding: 8px
+    border: none;
+    color: #003168;
+    padding: 8px;
 }
 .section-features .feature-nav a.active {
-	border-bottom: 4px solid #d40008;
-	border-radius: 0;
-	color: #d40008;
-	position: relative
+    border-bottom: 5px solid #d40008;
+    border-radius: 0;
+    color: #d40008;
+	position: relative;
 }
-.section-features .feature-content {} .section-colors .color-options {
+.section-features h3 {
+    color: #003168;
+    font-size: 25px;
+}
+.section-features .feature-content {
+	border-top: 5px solid #ccc;
+	margin-top: -5px;
+}
+.section-colors .color-options {
 	margin: 5px 0
 }
 .section-colors .color-options a {
