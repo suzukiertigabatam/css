@@ -386,7 +386,6 @@ ul.navbar-nav li {}ul.navbar-nav li a {
 	border-bottom: 1px solid #ddd;
 }
 .section-features .feature-nav {
-	background: #eee;
 	display: flex;
 	align-items: center;
 	justify-content: space-between
